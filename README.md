@@ -1,1 +1,4 @@
 # Word-Guess-Game
+This is a JavaScript game played in your browser. Try to guess the random food by typing on the keyboard. You have 8 attempts to guess . At the beginning of the game you will know how many letters the "food" consists of, which will be a powerful clue. Letters that have been guessed will not be allowed to be typed again. When the food is correctly guessed, you will get a win, if not, you will get a loss. The game will automatically choose another food for you after you win or lose a game.
+Click here to start the game, https://easonchang15530.github.io/Word-Guess-Game/
+good luck!
