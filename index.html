@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  <title>Word Guess Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Lobster|Modak|Pacifico|Permanent+Marker|Satisfy|Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  
+  <header class="welcome">
+    <h1>Word Guess Game</h1>
+    <h2>favorite food version</h2>
+  </header>
+
+  <main>
+    
+    <section class="note">
+      <br>
+      <br>
+      <h3>Guess the food!</h3>
+      <h3 id="pressPlay">press any alphabet key to play</h3>
+      <br>
+      <br>
+    </section>
+
+    <section class="scoreboard">
+      <div class="wins">
+        <h4>Wins</h4>
+        <h4 id="winCounter"></h4>
+      </div>
+
+      <div class="losses">
+        <h4>Losses</h4>
+        <h4 id="lossCounter"></h4>
+      </div>
+    </section>
+
+
+    <section class="record">
+      
+      <br>
+      <h3 class="useraction" id="foodToGuess"></h3>
+      <br>
+    
+      <h4>Lives remaining  <span id="numGuessesLeft"></span></h4>
+      <h4>Guessed Letters  <span class="useraction" id="wrongGuesses"></span></h4>
+      <br>
+
+    </section>
+
+  </main>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
+
 </html>
